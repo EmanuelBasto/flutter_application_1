@@ -54,14 +54,20 @@ flutter run
 
 Select your emulator or connected device
 
-📁 Project structure
-/lib
-└── main.dart
-screens/
-  └── home_screen.dart
-/assets
-    └── images/
-           └── logo.png
+## 📁 Project Structure  
+
+/lib  
+ ├── main.dart              # App entry point  
+ └── screens/  
+     └── login_screen.dart  # Login screen with animation logic  
+/assets  
+ └── animated_login_character.riv  # Rive animation file  
+
+*Brief explanation:*  
+- **main.dart** → Starts the Flutter app and routes to login screen  
+- **login_screen.dart** → Handles UI, user input, and controls the Rive State Machine  
+- **.riv file** → Contains the polar bear animation and state machine logic  
+
 ---
 ## Final note
 
